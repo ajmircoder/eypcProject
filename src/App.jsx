@@ -1,4 +1,5 @@
 import Head from './components/Head';
+import Profiles from './components/Profiles';
 import Service from './components/Service';
 import FeaturedWork from './components/featuredWork';
 
@@ -11,6 +12,7 @@ function App() {
           <Head />
           <FeaturedWork />
           <Service/>
+          <Profiles />
         </div>
       </div>
     </>

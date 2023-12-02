@@ -4,10 +4,12 @@ import Button from './Button';
 
 export default function FeaturedWork() {
     return (
-        <div>
-            <header className='grid grid-cols-1 mt-10 mb-8'>
-                <h1 className='text-center text-2xl md:text-5xl inline-block'>
-                    <hr className=' bg-red-700 hidden lg:inline-block md:w-1/5 xl:w-1/4 mb-4' /> /FEATURED WORK/ <hr className='hidden bg-red-700 lg:inline-block md:w-1/5 xl:w-1/4 mb-4' /></h1>
+        <div className=''>
+            <header className='flex items-center justify-center my-10'>
+                <hr className=' w-full bg-red-700 hidden lg:inline-block' />
+                <h1 className=' mx-1 text-center text-2xl md:text-5xl'>/FEATURED </h1>
+                <h1 className=' mx-1 text-center text-2xl md:text-5xl'>WORK/</h1>
+                <hr className='hidden w-full bg-red-700 lg:inline-block' />
             </header>
             <main>
                     <div className='md:hidden'>

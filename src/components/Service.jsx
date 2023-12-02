@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Service() {
     return (
-        <div>
-            <header className='grid grid-cols-1 mt-10 mb-5'>
-                <h1 className='text-center text-2xl md:text-5xl inline-block'>
-                    <hr className=' bg-red-700 hidden lg:inline-block md:w-1/5 xl:w-1/4 mb-4' /> /FEATURED WORK/ <hr className='hidden bg-red-700 lg:inline-block md:w-1/5 xl:w-1/4 mb-4' /></h1>
+        <div className='my-20'>
+            <header className='flex items-center justify-center py-10'>
+                <hr className=' w-full bg-red-700 hidden lg:inline-block' />
+                <h1 className=' mx-1 text-center text-2xl md:text-5xl'>/SERVICES</h1>
+                <hr className='hidden w-full bg-red-700 lg:inline-block' />
             </header>
-
             <main className=' lg:grid grid-cols-[50%_1fr]'>
                 <div className='hidden lg:flex justify-center items-center'>
                     <img className='butterfly' src="https://assets-global.website-files.com/6493e2c640a47641d704896f/64b792e8d4bc082efaec4b5d_butterfly-p-500.webp" alt="" />

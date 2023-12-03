@@ -133,7 +133,7 @@
     opacity: 1;
   }
   .carousel__control--backward {
-    left: 10px;
+    left: 16px;
     transform: rotate(-135deg);
   }
   .carousel__control--forward {

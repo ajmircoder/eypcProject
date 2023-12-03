@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Service() {
     return (
-        <div className='my-20'>
+        <div className=' py-10 md:my-20'>
             <header className='flex items-center justify-center py-10'>
                 <hr className=' w-full bg-red-700 hidden lg:inline-block' />
                 <h1 className=' mx-1 text-center text-2xl md:text-5xl'>/SERVICES</h1>

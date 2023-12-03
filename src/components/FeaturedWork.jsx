@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function FeaturedWork() {
     return (
-        <div className=''>
+        <div className='' id='FeaturedWork'>
             <header className='flex items-center justify-center my-10'>
                 <hr className=' w-full bg-red-700 hidden lg:inline-block' />
                 <h1 className=' mx-1 text-center text-2xl md:text-5xl'>/FEATURED </h1>
@@ -60,7 +60,7 @@ export default function FeaturedWork() {
                     </div>
             </main>
             <footer className=' md:mb-20'>
-            <Button text="SEE ALL PROJETCS" background='bg-[#b91647ff]'/>
+            <a href="https://epyc.in/projects"><Button text="SEE ALL PROJETCS" background='bg-[#b91647ff]'/></a>
             </footer>
         </div>
     )

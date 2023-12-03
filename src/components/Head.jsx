@@ -22,8 +22,8 @@ export default function Head() {
                 {/* <img className='butterfly inline-block' src="https://assets-global.website-files.com/6493e2c640a47641d704896f/64b792e8d4bc082efaec4b5d_butterfly-p-500.webp" alt="" /> */}
                 </h1>
                 <div className=' sm:flex justify-center mb-10 md:mb-14'>
-                <Button text="OUT WORK" background="bg-[#115652ff]"/>
-                <Button text="BOOK A CALL" background='bg-[#b91647ff]'/>
+                <Button text="OUT WORK" background="bg-[#115652ff]" id="FeaturedWork"/>
+               <a href="https://epyc.in/contact"><Button text="BOOK A CALL" background='bg-[#b91647ff]'/></a>
                 </div>
                 <div className='mb-20 p-2'>
                     <p className=' text-center text-xl'>Designed & developed 75+ websites & apps <br /> 10x faster using Webflow, Bubble, & FlutterFlow.</p>
@@ -54,8 +54,6 @@ export default function Head() {
                  <img className='inline-block' src="https://assets-global.website-files.com/6493e2c640a47641d704896f/650ad9adee42c69db17d58f2_Frame%2030.svg" 
                  loading="lazy" alt=""  />
                   </marquee>
-    
-                
             </footer>
         </div>
     )
